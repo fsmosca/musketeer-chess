@@ -41,7 +41,7 @@ That completes the PS and GP phases. See image below.
 
 ![](https://i.imgur.com/EulKRvg.png)
 
-White can make a gate move on its 4th move by `b1c3l` or `Nc3/L` - moving the knight to c3 and gating the leopard to b1 square, moving the knight to c3 and moving the leopard to b1 in one move.
+White can make a gate move on its 4th move by `b1c3l` or `Nc3/L` - moving the knight to c3 square and moving the leopard to b1 square in one move.
 
 ### E. Piece movements
 * Leopard
