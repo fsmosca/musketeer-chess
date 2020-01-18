@@ -9,10 +9,14 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 ### C. Gating preparation
 
 ### D. Musketeer pieces
+#### Piece names
 * Leopard
 * Cannon
 * Unicorn
 * Dragon
+#### Piece movements
+* Leopard
+* Cannon
 
 ### E. Game rules
 
@@ -21,3 +25,6 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 #### 2. Castling
 
 #### 3. Promotion
+
+### F. Performance test or perft
+
