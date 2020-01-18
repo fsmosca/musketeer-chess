@@ -45,9 +45,9 @@ The third move will be dropping of cannons, similar to second move except that i
 
 ### G. Performance test or perft
 #### Leopard/Cannon
+See the Perft folder of this repo to see other perft of specific musketeer piece combinations.
 * fen: `lc******/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/LC****** w KQkq - 0 1`
 * perft 4: `195507`
-#### Leopard/Unicron
 
 ### H. Musketeer GUI
   * Winboard
