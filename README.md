@@ -58,5 +58,7 @@ The first move in musketeer chess is PS (piece selection). A white player may se
   * https://github.com/ianfab/Musketeer-Stockfish
 * Betza notation for pieces
   * https://www.gnu.org/software/xboard/Betza.html
+* Play musketeer chess in a web page
+  * https://musketeerchess.net/games/musketeer/index.php
 
 
