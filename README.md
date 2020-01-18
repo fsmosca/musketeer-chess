@@ -6,6 +6,8 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 
 It is played on 10x8 board or 10 rows by 8 columns.
 
+#### Initial board layout
+
 ![](https://i.imgur.com/RmW4vkO.png)
 
 ### B. Musketeer pieces
@@ -25,9 +27,11 @@ It is played on 10x8 board or 10 rows by 8 columns.
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. Example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
 
 ### D. Gating preparation
-The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. 
+Gating is a move of entering the musketeer piece into the playing area. But before a gating move is executed on the board the player has to decide which file these new pieces will be gated. White can drop its new pieces at row 0 while Black can drop at row 9. See Initial board layout.
 
-For example on their second move, white can play L@b0 (Leopard to square B0). See section C of PS orders, it was Leopard first followed by Cannon. Black can reply with L@g9 (Leopard to square G9).
+The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
+
+For example on their second move, white can play L@b0 or Leopard to square B0, that is Leopard will enter the playing area at b file specifically at square B1 when white will play b1c3l (gating move) or b1a3l, the move suffix l in b1c3l refers to leopard. Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at g file which can enter the playing area at square G8 after the move g8f6l or g8h6l.
 
 The third move will be dropping of cannons, similar to second move except that it is not allowed to drop a piece behind a rook (a or h files) and the other behind the king (e file).
 
