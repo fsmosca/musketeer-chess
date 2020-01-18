@@ -51,6 +51,14 @@ The third move will be dropping of cannons, similar to second move except that i
 
 ### H. Musketeer GUI
   * Winboard
+    * Windows desktop
+      * Program
+        * http://hgm.nubati.net/WinBoard-AA.zip
+      * Discussion
+        * http://talkchess.com/forum3/viewtopic.php?f=7&t=72572
+  * Musketeer home page
+    * Web page
+      * https://musketeerchess.net/games/musketeer/index.php
 
 ### I. Example game
 
