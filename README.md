@@ -10,19 +10,19 @@ It is played on 10x8 board or 10 rows by 8 columns.
 
 ### B. Musketeer pieces
 #### Piece names, id and betza
-* name: Leopard, id: L, betza: NB2
-* name: Cannon, id: C, betza: llNrrNDK
-* Unicorn
-* Dragon
-* Chancellor
-* Archbishop
-* Elephant
-* Hawk
-* Fortress
-* Spider
+1. name: Leopard, id: L, betza: NB2
+2. name: Cannon, id: C, betza: llNrrNDK
+3. Unicorn
+4. Dragon
+5. Chancellor
+6. Archbishop
+7. Elephant
+8. Hawk
+9. Fortress
+10. Spider
 
 ### C. Piece selection
-The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. Example white may select a Leopard and Black may reply by selecting a Cannon (or any other piece but not the piece selected by white).
+The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. Example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
 
 ### D. Gating preparation
 
