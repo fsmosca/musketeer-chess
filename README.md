@@ -4,10 +4,14 @@ Game rules and performance test
 ### A. Introduction
 Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess but with added new piece types such as Leopard, Cannon, Unicorn, Dragon, Chancellor, Archbishop, Elephant, Hawk, Fortress and Spider.
 
+It is played on 10x8 board or 10 rows by 8 columns.
+
+![](https://i.imgur.com/RmW4vkO.png)
+
 ### B. Musketeer pieces
-#### Piece names
-* Leopard
-* Cannon
+#### Piece names, id and betza
+* name: Leopard, id: L, betza: NB2
+* name: Cannon, id: C, betza: llNrrNDK
 * Unicorn
 * Dragon
 * Chancellor
