@@ -10,6 +10,12 @@ It is played on 10x8 board or 10 rows by 8 columns.
 
 ![](https://i.imgur.com/RmW4vkO.png)
 
+Generally this game has 2 initial phases in order
+1. PS (piece selection)
+2. GP (gating preparation)  
+
+After which the game may start as in chess but with gating moves.
+
 ### B. Musketeer pieces
 #### Piece names, id and betza
 1. name: Leopard, id: L, betza: NB2
@@ -29,7 +35,7 @@ The first move in musketeer chess is PS (piece selection). A white player may se
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
 
 ### D. Gating preparation
-Gating is a move of entering the musketeer piece into the playing area. But before a gating move is executed on the board the player has to decide which file these new pieces will be gated. White can drop its new pieces at row 0 while Black can drop at row 9. See Initial board layout.
+Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which file these new pieces will be gated. White can drop its new pieces at row 0 at any file while Black can drop at row 9 at any file too. See Initial board layout.
 
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
 
