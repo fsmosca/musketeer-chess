@@ -101,7 +101,20 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
   * Can jump at a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![cannon](https://i.imgur.com/M1v9LZj.png)
-
+  
+#### 3. Unicorn
+* Move description
+  * Can jump like a knight as in chess.
+  * Can jump to a square adjacent to the knight destination square in the north, south, east and west directions.
+* Movement image
+  * ![unicorn](https://i.imgur.com/axScV2u.png)
+  
+#### 4. Dragon
+* Move description
+  * Can move like a queen as in chess.
+  * Can move like a knight as in chess.
+* Movement image
+  
 ### G. Game rules
 
 #### Gating
