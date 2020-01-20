@@ -120,20 +120,20 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
 #### 1. Gating
 A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
 
-#### Image 4: Sample position after PS and GP, white to move.
+##### Image 4: Sample position after PS and GP, white to move.
 
 ![image 4](https://i.imgur.com/1e0uMMI.png)
 
 ##### a. Normal gating move
 From image 4, white can play `b1c3l` or `Nc3/L` gating move.
 
-#### Image 5: Position after b1c3l
+##### Image 5: Position after b1c3l
 ![](https://i.imgur.com/Bah6x1E.png)
 
 ##### b. Castle gating move
 From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
 
-#### Image 6: Position after e1g1l gating move
+##### Image 6: Position after e1g1l gating move
 
 ![castle gating](https://i.imgur.com/O37xoXU.png)
 
@@ -142,16 +142,48 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 
 #### 3. When the king of side to move is in check or under attack
 
-#### Image 7: White to move, its king is in check
+##### Image 7: White to move, its king is in check
 
 ![king in check](https://i.imgur.com/NA36dXg.png)
 
 * As in chess a king cannot castle if in check.
 * The king cannot gate if in check except if that king captures the attacker. See image 8.
 
-#### Image 8: King capture check evasion
+##### Image 8: King capture check evasion
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
+
+#### 4. Losing the right to gate
+There are situations where a player cannot gate its musketeer piece.
+
+#### a. The piece in front of it, is captured. See image 9.
+
+##### Image 9: Black to play
+
+![bishop captures knight](https://i.imgur.com/FraBYTh.png)
+
+Black can capture the knight by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
+
+##### Image 10: White loses the right to gate its cannon.
+
+![cannon cannot enter the playing area](https://i.imgur.com/1JHmPFQ.png)
+
+That cannon marked X cannot enter the playing area for the rest of the game.
+
+#### b. The king is in check
+If a musketeer piece is located at e column or king file and if this king is in check and this king cannot capture its attacker, the player could no longer gate that piece for the rest of the game. See image 11.
+
+##### Image 11: White king is in check
+
+![King in check](https://i.imgur.com/GNlDc2C.png)
+
+White to play and its king is under check or attack, the king cannot capture the queen at H4, its only move is e1d2 or Kd2. It cannot gate the leopard, see Image 12.
+
+##### Image 12: King loses the right to gate its leopard
+
+![leopard loses the right to gate](https://i.imgur.com/miyJgHh.png)
+
+The musketeer piece marked X cannot enter the playing area for the rest of the game.
 
 ### H. Performance test or perft
 
