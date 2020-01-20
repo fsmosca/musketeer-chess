@@ -58,7 +58,11 @@ After which the game may start as in chess but with gating moves.
 ## C. Piece selection
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
-For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
+For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1.
+
+#### Image 1.1 Piece selection phase is completed
+
+![PS](https://i.imgur.com/wzZ0J9h.png)
 
 ## D. Gating preparation
 Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column too. See Initial board layout.
