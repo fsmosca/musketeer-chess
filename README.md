@@ -6,9 +6,11 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 
 It is played on 10x8 board or 10 rows by 8 columns.
 
-#### Initial board layout
+#### Image 1: Initial board layout
 
 ![](https://i.imgur.com/RmW4vkO.png)
+
+There are 10 rows, row 0, row 1 ... till row 9. There are also 8 columns, column a, column b till column h. Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 9 or squares [A9, B9 ... H9]. The playing area is the same as in chess bounded by squares A1, H1, H8, A8. A row can also be called a rank and a column can also be called a file.
 
 Generally this game has 2 initial phases in order
 1. PS (piece selection)
@@ -17,9 +19,9 @@ Generally this game has 2 initial phases in order
 After which the game may start as in chess but with gating moves.
 
 ### B. Musketeer pieces
-#### Piece names, id and betza
-1. name: Leopard, id: L, betza: NB2
-2. name: Cannon, id: C, betza: llNrrNDK
+#### Piece names
+1. Leopard
+2. Cannon
 3. Unicorn
 4. Dragon
 5. Chancellor
@@ -29,31 +31,63 @@ After which the game may start as in chess but with gating moves.
 9. Fortress
 10. Spider
 
+#### Piece id
+* L = Leopard
+* C = Cannon
+* U = Unicorn
+* D = Dragon
+* M = Chancellor
+* A = Archbishop
+* E = Elephant
+* H = Hawk
+* F = Fortress
+* S = Spider
+
+#### Betza notation
+* L = NB2
+* C = llNrrNDK
+* U = CN
+* D = QN
+* M = RN
+* A = BN
+* E = KDA
+* H = DHAG
+* F = B3DfNbN
+* S = B2DN
+
 ### C. Piece selection
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
 
 ### D. Gating preparation
-Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which file these new pieces will be gated. White can drop its new pieces at row 0 at any file while Black can drop at row 9 at any file too. See Initial board layout.
+Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column too. See Initial board layout.
 
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
 
-For example on their second move, white can play L@b0 or Leopard to square B0, that is Leopard will enter the playing area at b file specifically at square B1 when white will play b1c3l (gating move) or b1a3l, the move suffix l in b1c3l refers to leopard. Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at g file which can enter the playing area at square G8 after the move g8f6l or g8h6l.
+For example on their second move, white can play L@b0 or dropping a Leopard to square B0, that is Leopard will enter the playing area at column b specifically at square B1 when white will play for example b1c3l (gating move). Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at column g which can enter the playing area at square G8.
 
-The third move will be dropping of cannons, similar to second move except that it is not allowed to drop a piece behind a rook (a or h files) and the other behind the king (e file). White can play C@d0 and Black can play C@f9.
+The third move will be dropping of cannons, similar to second move except that it is not allowed to drop a piece behind a rook (columns a or h) and the other behind the king (column e). White can play C@d0 and Black can play C@f9.
 
-That completes the PS and GP phases. See image below.
+That completes the PS and GP phases.
 
-![](https://i.imgur.com/EulKRvg.png)
+#### Image 2: Position after PS and GP
 
-White can make a gate move on its 4th move by `b1c3l` or `Nc3/L` - moving the knight to c3 square and moving the leopard to b1 square in one move.
+![Image 2](https://i.imgur.com/EulKRvg.png)
 
-### E. Piece movements
-* Leopard
-* Cannon
+### E. Gating move
+After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3/L`, moving the knight to square C3 and leopard to B1 all in a single move. See image 3.
 
-### F. Game rules
+#### Image 3: Position after the gate move b1c3l or Nc3/L
+
+![image 3](https://i.imgur.com/vzqD0O1.png)
+
+That enters the leopard into the playing area. It can now move according to its movement rules described in section F.
+
+### F. Piece movements
+See how musketter pieces move in a playing area at https://musketeerchess.net/site/game-rules/
+
+### G. Game rules
 
 #### Gating
 
@@ -61,13 +95,15 @@ White can make a gate move on its 4th move by `b1c3l` or `Nc3/L` - moving the kn
 
 #### Promotion
 
-### G. Performance test or perft
-#### Leopard/Cannon
+### H. Performance test or perft
+
 See the Perft folder of this repo to see other perft of specific musketeer piece combinations.
+
+#### Leopard/Cannon
 * fen: `lc******/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/LC****** w KQkq - 0 1`
 * perft 4: `195507`
 
-### H. Musketeer GUI
+### I. Musketeer GUI
   * Winboard
     * Windows desktop
       * Program
@@ -78,9 +114,9 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
     * Web page
       * https://musketeerchess.net/games/musketeer/index.php
 
-### I. Example game
+### J. Example game
 
-### J. References
+### K. References
 * Official site
   * https://musketeerchess.net/home/index.html
 * Official game rules
