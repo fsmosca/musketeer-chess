@@ -73,9 +73,11 @@ Gating is a move that enters the musketeer piece into the playing area. But befo
 #### The second and third moves of musketeer chess
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
 
-For example on their second move, white can play L@b0 or dropping a Leopard to square B0, that is Leopard will enter the playing area at column b specifically at square B1 when white will play for example b1c3l (gating move). Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at column g which can enter the playing area at square G8.
+#### The second move of musketeer chess
+The second move will be dropping of first selected piece (leopard), for example white can play L@b0 or dropping a Leopard to square B0. Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at column g.
 
-The third move will be dropping of cannons, similar to second move except that it is not allowed to drop a piece behind a rook (columns a or h) and the other behind the king (column e). White can play C@d0 and Black can play C@f9.
+#### The third move of musketeer chess
+The third move will be dropping of second selected piece (cannon), similar to second move except that it is not allowed to drop a piece behind a rook (columns a or h) and the other behind the king (column e). White can play C@d0 and Black can play C@f9.
 
 That completes the PS and GP phases.
 
