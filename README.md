@@ -8,7 +8,7 @@ It is played on 10x8 board or 10 rows by 8 columns.
 
 #### Image 1: Initial board layout
 
-![](https://i.imgur.com/RmW4vkO.png)
+![image 1](https://i.imgur.com/H0uCk6Q.png)
 
 There are 10 rows, row 0, row 1 ... till row 9. There are also 8 columns, column a, column b till column h. Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 9 or squares [A9, B9 ... H9]. The playing area is the same as in chess bounded by squares A1, H1, H8, A8. A row can also be called a rank and a column can also be called a file.
 
