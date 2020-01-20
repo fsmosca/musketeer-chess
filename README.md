@@ -117,11 +117,41 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
   
 ### G. Game rules
 
-#### Gating
+#### 1. Gating
+A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
 
-#### Castling
+#### Image 4: Sample position after PS and GP, white to move.
 
-#### Promotion
+![image 4](https://i.imgur.com/1e0uMMI.png)
+
+##### a. Normal gating move
+From image 4, white can play `b1c3l` or `Nc3/L` gating move.
+
+#### Image 5: Position after b1c3l
+![](https://i.imgur.com/Bah6x1E.png)
+
+##### b. Castle gating move
+From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
+
+#### Image 6: Position after e1g1l gating move
+
+![castle gating](https://i.imgur.com/O37xoXU.png)
+
+#### 2. Promotion
+After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece.
+
+#### 3. When the king of side to move is in check or under attack
+
+#### Image 7: White to move, its king is in check
+
+![king in check](https://i.imgur.com/NA36dXg.png)
+
+* As in chess a king cannot castle if in check.
+* The king cannot gate if in check except if that king captures the attacker. See image 8.
+
+#### Image 8: King capture check evasion
+
+![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
 ### H. Performance test or perft
 
