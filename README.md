@@ -156,13 +156,13 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 #### 4. Losing the right to gate
 There are situations where a player cannot gate its musketeer piece.
 
-#### a. The piece in front of it, is captured. See image 9.
+#### a. The piece in front of it, is captured.
 
 ##### Image 9: Black to play
 
 ![bishop captures knight](https://i.imgur.com/FraBYTh.png)
 
-Black can capture the knight by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
+From image 9, black can capture the knight by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
 
 ##### Image 10: White loses the right to gate its cannon.
 
@@ -171,13 +171,13 @@ Black can capture the knight by f5b1 or Bxb1, as a result white could no longer 
 That cannon marked X cannot enter the playing area for the rest of the game.
 
 #### b. The king is in check
-If a musketeer piece is located at e column or king file and if this king is in check and this king cannot capture its attacker, the player could no longer gate that piece for the rest of the game. See image 11.
+If a musketeer piece is located at e column or king file and if this king is in check and this king cannot capture its attacker, see image 11, the player could no longer gate that piece for the rest of the game.
 
-##### Image 11: White king is in check
+##### Image 11: White king is in check, attacker is far from king
 
 ![King in check](https://i.imgur.com/GNlDc2C.png)
 
-White to play and its king is under check or attack, the king cannot capture the queen at H4, its only move is e1d2 or Kd2. It cannot gate the leopard, see Image 12.
+White to play and its king is under check or attack, the king cannot capture the queen at H4, its only move is e1d2 or Kd2. See image 12.
 
 ##### Image 12: King loses the right to gate its leopard
 
