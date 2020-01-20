@@ -60,7 +60,7 @@ The first move in musketeer chess is PS (piece selection). A white player may se
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1.
 
-#### Image 1.1 Piece selection phase is completed
+#### Image 1.1: Piece selection phase is completed
 
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
@@ -153,7 +153,7 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 * As in chess a king cannot castle if in check.
 * The king cannot gate if in check except if that king captures the attacker. See image 8.
 
-##### Image 8: King capture check evasion
+##### Image 8: King evade the attack by capturing its attacker by itself
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
