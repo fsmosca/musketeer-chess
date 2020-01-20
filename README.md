@@ -87,6 +87,17 @@ That enters the leopard into the playing area. It can now move according to its 
 ### F. Piece movements
 See how musketter pieces move in a playing area at https://musketeerchess.net/site/game-rules/
 
+#### 1. Leopard
+* Move description
+  * It can jump like a knight as in chess.
+  * It can slide like a bishop as in chess but is limited to a maximum of 2 squares.
+* Move image
+  * ![leopard movement](https://i.imgur.com/b1ny4EP.png)
+  
+#### 2. Cannon
+* Move description
+* Move image
+
 ### G. Game rules
 
 #### Gating
