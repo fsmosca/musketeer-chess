@@ -1,7 +1,7 @@
 # Musketeer chess
 Game rules and performance test
 
-### A. Introduction
+## A. Introduction
 Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess but with added new piece types such as Leopard, Cannon, Unicorn, Dragon, Chancellor, Archbishop, Elephant, Hawk, Fortress and Spider.
 
 It is played on 10x8 board or 10 rows by 8 columns.
@@ -18,7 +18,7 @@ Generally this game has 2 initial phases in order
 
 After which the game may start as in chess but with gating moves.
 
-### B. Musketeer pieces
+## B. Musketeer pieces
 #### Piece names
 1. Leopard
 2. Cannon
@@ -55,12 +55,12 @@ After which the game may start as in chess but with gating moves.
 * F = B3DfNbN
 * S = B2DN
 
-### C. Piece selection
+## C. Piece selection
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game.
 
-### D. Gating preparation
+## D. Gating preparation
 Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column too. See Initial board layout.
 
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
@@ -75,7 +75,7 @@ That completes the PS and GP phases.
 
 ![Image 2](https://i.imgur.com/EulKRvg.png)
 
-### E. Gating move
+## E. Gating move
 After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3/L`, moving the knight to square C3 and leopard to B1 all in a single move. See image 3.
 
 #### Image 3: Position after the gate move b1c3l or Nc3/L
@@ -84,7 +84,7 @@ After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3
 
 That enters the leopard into the playing area. It can now move according to its movement rules described in section F.
 
-### F. Piece movements
+## F. Piece movements
 See how musketeer pieces move in a playing area at https://musketeerchess.net/site/game-rules/
 
 #### 1. Leopard
@@ -115,9 +115,9 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
   * Can move like a knight as in chess.
 * Movement image
   
-### G. Game rules
+## G. Game rules
 
-#### 1. Gating
+### 1. Gating
 A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
 
 ##### Image 4: Sample position after PS and GP, white to move.
@@ -137,10 +137,10 @@ From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
 
 ![castle gating](https://i.imgur.com/O37xoXU.png)
 
-#### 2. Promotion
+### 2. Promotion
 After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece.
 
-#### 3. When the king of side to move is in check or under attack
+### 3. When the king of side to move is in check or under attack
 
 ##### Image 7: White to move, its king is in check
 
@@ -153,7 +153,7 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
-#### 4. Losing the right to gate
+### 4. Losing the right to gate
 There are situations where a player cannot gate its musketeer piece.
 
 #### a. The piece in front of it, is captured.
@@ -185,7 +185,7 @@ White to play and its king is under check or attack, the king cannot capture the
 
 The musketeer piece marked X cannot enter the playing area for the rest of the game.
 
-### H. Performance test or perft
+## H. Performance test or perft
 
 See the Perft folder of this repo to see other perft of specific musketeer piece combinations.
 
@@ -193,7 +193,7 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 * fen: `lc******/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/LC****** w KQkq - 0 1`
 * perft 4: `195507`
 
-### I. Musketeer GUI
+## I. Musketeer GUI
   * Winboard
     * Windows desktop
       * Program
@@ -204,9 +204,9 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
     * Web page
       * https://musketeerchess.net/games/musketeer/index.php
 
-### J. Example game
+## J. Example game
 
-### K. References
+## K. References
 * Official site
   * https://musketeerchess.net/home/index.html
 * Official game rules
