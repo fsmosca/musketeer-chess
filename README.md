@@ -215,6 +215,14 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
       * https://musketeerchess.net/games/musketeer/index.php
 
 ## J. Example game
+```
+1. leopard  cannon
+2. L@b0  L@g9
+3. C@d0  C@f9
+4. e4  e5
+```
+#### Move comment
+White selected a leopard in the first move, black replied by selecting a cannon PS is now complete. Both sides have now a leopard and a cannon. In the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. The fourth move and onward will be as in chess.
 
 ## K. References
 * Official site
