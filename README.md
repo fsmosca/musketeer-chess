@@ -56,6 +56,9 @@ After which the game may start as in chess but with gating moves.
 * S = B2DN
 
 ## C. Piece selection
+
+#### The first move of musketeer chess
+
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1.
@@ -65,8 +68,9 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
 ## D. Gating preparation
-Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column too. See Initial board layout.
+Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations. See Initial board layout.
 
+#### The second and third moves of musketeer chess
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
 
 For example on their second move, white can play L@b0 or dropping a Leopard to square B0, that is Leopard will enter the playing area at column b specifically at square B1 when white will play for example b1c3l (gating move). Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at column g which can enter the playing area at square G8.
@@ -175,7 +179,7 @@ From image 9, black can capture the knight by f5b1 or Bxb1, as a result white co
 That cannon marked X cannot enter the playing area for the rest of the game.
 
 #### b. The king is in check
-If a musketeer piece is located at e column or king file and if this king is in check and this king cannot capture its attacker, see image 11, the player could no longer gate that piece for the rest of the game.
+If a musketeer piece is dropped at column e or king file and if the king is in check and this king cannot capture its attacker, and is forced to make a move, see image 11, the player could no longer gate the musketeer piece for the rest of the game.
 
 ##### Image 11: White king is in check, attacker is far from king
 
