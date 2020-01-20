@@ -91,12 +91,16 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
 * Move description
   * It can jump like a knight as in chess.
   * It can slide like a bishop as in chess but is limited to a maximum of 2 squares.
-* Move image
-  * ![leopard movement](https://i.imgur.com/glcFuFr.png)
+* Movement image
+  * ![leopard](https://i.imgur.com/4m6AOzc.png)
   
 #### 2. Cannon
 * Move description
-* Move image
+  * Can jump like a knight as in chess but at the sides only.
+  * Can move like a king as in chess.
+  * Can jump at a distance of 2 squares horizontally and vertically.
+* Movement image
+  * ![cannon](https://i.imgur.com/M1v9LZj.png)
 
 ### G. Game rules
 
