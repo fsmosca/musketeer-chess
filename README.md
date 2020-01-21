@@ -61,7 +61,7 @@ After which the game may start as in chess but with gating moves.
 
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
-For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. [See image1-1](#image1-1-piece-selection-phase-is-completed).
+For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image1-1.
 
 ##### Image1-1 Piece selection phase is completed
 
@@ -70,7 +70,7 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ## D. Gating preparation
 Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
 
-The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the drop areas, see image 1.
+The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the drop areas, [see image 1](#image1-initial-board-layout).
 
 #### The second move of musketeer chess
 The second move will be dropping of first selected piece (leopard), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its leopard to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
@@ -78,7 +78,7 @@ The second move will be dropping of first selected piece (leopard), for example 
 #### The third move of musketeer chess
 The third move will be dropping of second selected piece (cannon), for example white can play C@d0 and Black can reply with C@f9.
 
-It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. See game rules in section G.
+It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. [See item 5 in game rules section](#5-dropping-of-musketeer-pieces).
 
 That completes the PS and GP phases.
 
