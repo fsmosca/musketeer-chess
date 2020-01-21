@@ -125,6 +125,19 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
   * Can move like a queen as in chess.
   * Can move like a knight as in chess.
 * Movement image
+  * ![dragon](https://i.imgur.com/KBb0u6U.png)
+  
+#### 5. Chancellor
+* Move description
+  * Can move like a rook as in chess.
+  * Can move like a knight as in chess.
+* Movement image
+    
+#### 6. Archbishop
+* Move description
+  * Can move like a bishop as in chess.
+  * Can move like a knight as in chess.
+* Movement image
   
 ## G. Game rules
 
