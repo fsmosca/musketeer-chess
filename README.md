@@ -197,7 +197,7 @@ White to play and its king is under check or attack, the king cannot capture the
 The musketeer piece marked X cannot enter the playing area for the rest of the game.
 
 ### 5. Dropping of musketeer pieces
-It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same when **castling** - this is not allowed.
+It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
 
 ## H. Performance test or perft
 Counts leaf nodes from a given depth see typical ref for chess at https://www.chessprogramming.org/Perft
