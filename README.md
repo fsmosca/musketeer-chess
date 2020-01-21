@@ -2,7 +2,7 @@
 Game rules and performance test
 
 ## A. Introduction
-Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess but with added new piece types such as Leopard, Cannon, Unicorn, Dragon, Chancellor, Archbishop, Elephant, Hawk, Fortress and Spider.
+Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess game but with new selectable piece types such as Leopard, Cannon and others, [see section B](#b-musketeer-pieces), that will be added to the game.
 
 It is played on 10x8 board or 10 rows by 8 columns. But most of the game happens on 8x8 board as in chess.
 
@@ -10,6 +10,7 @@ It is played on 10x8 board or 10 rows by 8 columns. But most of the game happens
 
 ![image 1](https://i.imgur.com/H0uCk6Q.png)
 
+#### Board layout
 There are 10 rows, row 0, row 1 ... up to row 9. There are also 8 columns, column a, column b up to column h. A row can also be called a rank and a column can also be called a file.
 
 #### The drop areas
