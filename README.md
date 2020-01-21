@@ -4,7 +4,7 @@ Game rules and performance test
 ## A. Introduction
 Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess but with added new piece types such as Leopard, Cannon, Unicorn, Dragon, Chancellor, Archbishop, Elephant, Hawk, Fortress and Spider.
 
-It is played on 10x8 board or 10 rows by 8 columns.
+It is played on 10x8 board or 10 rows by 8 columns. But most of the game happens on 8x8 board as in chess.
 
 ##### Image 1: Initial board layout
 
@@ -18,11 +18,11 @@ Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 
 #### The playing area
 The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The pieces inside the playing area cannot move into the drop areas.
 
+#### Game overview
 Generally this game has 2 initial phases in order
 1. PS (piece selection), [described in section C](#c-piece-selection)
 2. GP (gating preparation) [described in section D](#d-gating-preparation) 
-
-After which the game may start as in chess but with gating moves.
+3. Then the game can continue as in chess. [See game example section.](#j-example-game)
 
 ## B. Musketeer pieces
 #### Piece names
@@ -245,15 +245,15 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 3. C@d0  C@f9
 4. d4  Nf6/L
 ```
-#### Game comment
+### Game comment
 
-##### Piece selection phase
+#### 1. Piece selection phase (move 1)
 White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
 
-##### Gating preparation
+#### 2. Gating preparation phase (move 2 and 3)
 On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. 
 
-##### The playing area and gating move
+#### 3. The moves in playing area and gating move
 On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
 
 ##### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
