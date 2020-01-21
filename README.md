@@ -274,6 +274,8 @@ On move 4, white opens the game with d4, black replied with a gating move Nc3/L 
   * https://musketeerchess.net/home/index.html
 * Official game rules
   * https://musketeerchess.net/site/game-rules/
+* Rules of Chess
+  * https://en.wikipedia.org/wiki/Rules_of_chess
 * Musketeer Stockfish
   * https://github.com/ianfab/Musketeer-Stockfish
 * Betza notation for pieces
