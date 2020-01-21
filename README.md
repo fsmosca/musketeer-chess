@@ -6,7 +6,7 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 
 It is played on 10x8 board or 10 rows by 8 columns.
 
-##### Image1 Initial board layout
+##### Image 1: Initial board layout
 
 ![image 1](https://i.imgur.com/H0uCk6Q.png)
 
@@ -61,9 +61,9 @@ After which the game may start as in chess but with gating moves.
 
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
-For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image1-1.
+For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1.
 
-##### Image1-1 Piece selection phase is completed
+##### Image 1.1: Piece selection phase is completed
 
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
@@ -82,14 +82,14 @@ It is not allowed to drop a musketeer piece at column e and another at column a 
 
 That completes the PS and GP phases.
 
-##### Image2 Position after PS and GP
+##### Image 2: Position after PS and GP
 
 ![Image 2](https://i.imgur.com/EulKRvg.png)
 
 ## E. Gating move
 After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3/L`, moving the knight to square C3 and leopard to B1 all in a single move. See image 3.
 
-##### Image3 Position after the gate move b1c3l or Nc3/L
+##### Image 3: Position after the gate move b1c3l or Nc3/L
 
 ![image 3](https://i.imgur.com/vzqD0O1.png)
 
@@ -131,20 +131,20 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
 ### 1. Gating
 A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
 
-##### Image4 Sample position after PS and GP, white to move.
+##### Image 4: Sample position after PS and GP, white to move.
 
 ![image 4](https://i.imgur.com/1e0uMMI.png)
 
 ##### a. Normal gating move
 From image 4, white can play `b1c3l` or `Nc3/L` gating move.
 
-##### Image5 Position after b1c3l
+##### Image 5: Position after b1c3l
 ![](https://i.imgur.com/Bah6x1E.png)
 
 ##### b. Castle gating move
 From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
 
-##### Image6 Position after e1g1l gating move
+##### Image 6: Position after e1g1l gating move
 
 ![castle gating](https://i.imgur.com/O37xoXU.png)
 
@@ -153,14 +153,14 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 
 ### 3. When the king of side to move is in check or under attack
 
-##### Image7 White to move, its king is in check
+##### Image 7: White to move, its king is in check
 
 ![king in check](https://i.imgur.com/NA36dXg.png)
 
 * As in chess a king cannot castle if in check.
 * The king cannot gate if in check except if that king captures the attacker. See image 8.
 
-##### Image8 King evades the attack by capturing its attacker
+##### Image 8: King evades the attack by capturing its attacker
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
@@ -169,13 +169,13 @@ There are situations where a player cannot gate its musketeer piece.
 
 #### a. The piece in front of it, is captured.
 
-##### Image9 Black to play
+##### Image 9: Black to play
 
 ![bishop captures knight](https://i.imgur.com/FraBYTh.png)
 
 From image 9, black can capture the knight by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
 
-##### Image10 White loses the right to gate its cannon.
+##### Image 10: White loses the right to gate its cannon.
 
 ![cannon cannot enter the playing area](https://i.imgur.com/1JHmPFQ.png)
 
@@ -184,13 +184,13 @@ That cannon marked X cannot enter the playing area for the rest of the game.
 #### b. The king is in check
 If a musketeer piece is dropped at column e or king file and if the king is in check and this king cannot capture its attacker, and is forced to make a move, see image 11, the player could no longer gate the musketeer piece for the rest of the game.
 
-##### Image11 White king is in check, attacker is far from king
+##### Image 11: White king is in check, attacker is far from king
 
 ![King in check](https://i.imgur.com/GNlDc2C.png)
 
 White to play and its king is under check or attack, the king cannot capture the queen at H4, its only move is e1d2 or Kd2. See image 12.
 
-##### Image12 King loses the right to gate its leopard
+##### Image 12: King loses the right to gate its leopard
 
 ![leopard loses the right to gate](https://i.imgur.com/miyJgHh.png)
 
@@ -226,9 +226,9 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 4. d4  Nf6/L
 ```
 #### Move comment
-White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image1-1](#image1-1-piece-selection-phase-is-completed). On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
+White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image 1.1](#image-11-piece-selection-phase-is-completed). On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
 
-##### Image13 Black leopard enters the playing area by the gate move Nc3/L or g8f6l
+##### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
 
 ![example game](https://i.imgur.com/sN1iuzC.png)
 
