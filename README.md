@@ -1,6 +1,19 @@
 # Musketeer chess
 Game rules and performance test
 
+## Table of contents
+* [A. Introduction](#a-introduction)
+* [B. Musketeer pieces](#b-musketeer-pieces)
+* [C. Piece selection](#c-piece-selection)
+* [D. Gating preparation](#d-gating-preparation)
+* [E. Gating move](#e-gating-move)
+* [F. Piece movements](#f-piece-movements)
+* [G. Game rules](#g-game-rules)
+* [H. Performance test or perft](#h-performance-test-or-perft)
+* [I. Musketeer GUI](#i-musketeer-gui)
+* [J. Example game](#j-example-game)
+* [K. References](#k-references)
+
 ## A. Introduction
 Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess game but with new selectable piece types such as Leopard, Cannon and others, [see section B](#b-musketeer-pieces), that will be added to the game.
 
