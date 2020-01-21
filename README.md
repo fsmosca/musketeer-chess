@@ -68,16 +68,17 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
 ## D. Gating preparation
-Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column these new pieces will be gated. White can drop its new pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations. See Initial board layout.
+Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
 
-#### The second and third moves of musketeer chess
-The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping a piece on drop areas. The first piece selected in PS will be the first to be dropped. In the example in section C, it is Leopard first then cannon second.
+The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the drop areas, see image 1.
 
 #### The second move of musketeer chess
-The second move will be dropping of first selected piece (leopard), for example white can play L@b0 or dropping a Leopard to square B0. Black can reply with L@g9 or Leopard to square G9, intending to gate the leopard at column g.
+The second move will be dropping of first selected piece (leopard), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its cannon to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
 
 #### The third move of musketeer chess
-The third move will be dropping of second selected piece (cannon), similar to second move except that it is not allowed to drop a piece behind a rook (columns a or h) and the other behind the king (column e). White can play C@d0 and Black can play C@f9.
+The third move will be dropping of second selected piece (cannon), for example white can play C@d0 and Black can reply with C@f9.
+
+It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. See game rules in section G.
 
 That completes the PS and GP phases.
 
@@ -159,7 +160,7 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 * As in chess a king cannot castle if in check.
 * The king cannot gate if in check except if that king captures the attacker. See image 8.
 
-##### Image 8: King evade the attack by capturing its attacker by itself
+##### Image 8: King evades the attack by capturing its attacker
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
@@ -195,6 +196,9 @@ White to play and its king is under check or attack, the king cannot capture the
 
 The musketeer piece marked X cannot enter the playing area for the rest of the game.
 
+### 5. Dropping of musketeer pieces
+It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same when **castling** - this is not allowed.
+
 ## H. Performance test or perft
 
 See the Perft folder of this repo to see other perft of specific musketeer piece combinations.
@@ -219,10 +223,14 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 1. leopard  cannon
 2. L@b0  L@g9
 3. C@d0  C@f9
-4. e4  e5
+4. d4  Nf6/L
 ```
 #### Move comment
-White selected a leopard in the first move, black replied by selecting a cannon PS is now complete. Both sides have now a leopard and a cannon. In the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. The fourth move and onward will be as in chess.
+White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, see image 1.1. On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
+
+#### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
+
+![example game](https://i.imgur.com/sN1iuzC.png)
 
 ## K. References
 * Official site
