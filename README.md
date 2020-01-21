@@ -9,6 +9,12 @@ Game rules and performance test
 * [E. Gating move](#e-gating-move)
 * [F. Piece movements](#f-piece-movements)
 * [G. Game rules](#g-game-rules)
+  * [1. Gating](#1-gating)
+  * [2. Promotion](#2-promotion)
+  * [3. King is in check](#3-king-is-in-check)
+  * [4. Losing the right to gate](#4-losing-the-right-to-gate)
+  * [5. Dropping of musketeer pieces](#5-dropping-of-musketeer-pieces)
+  * [6. Gating and pinned piece](#6-gating-and-pinned-piece)
 * [H. Performance test or perft](#h-performance-test-or-perft)
 * [I. Musketeer GUI](#i-musketeer-gui)
 * [J. Example game](#j-example-game)
@@ -185,7 +191,7 @@ From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
 ### 2. Promotion
 After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece.
 
-### 3. When the king of side to move is in check or under attack
+### 3. King is in check
 
 ##### Image 7: White to move, its king is in check
 
