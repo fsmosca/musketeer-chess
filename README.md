@@ -197,8 +197,7 @@ After PS and GP phases, a pawn can promote to either N, B, R, Q, 1st selected pi
 
 ![king in check](https://i.imgur.com/NA36dXg.png)
 
-* As in chess a king cannot castle if in check.
-* The king cannot gate if in check except if that king captures the attacker. [See image 8](#image-8-king-evades-the-attack-by-capturing-its-attacker).
+* The king cannot gate if in check except if that king captures the attacker. See image below.
 
 ##### Image 8: King evades the attack by capturing its attacker
 
