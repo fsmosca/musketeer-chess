@@ -138,6 +138,7 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
   * Can move like a rook as in chess.
   * Can move like a knight as in chess.
 * Movement image
+  * ![chancellor](https://i.imgur.com/4jZLzHB.png)
     
 #### 6. Archbishop
 * Move description
