@@ -260,7 +260,17 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
 
 #### 2. Gating preparation phase (move 2 and 3)
-On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. 
+On the second move, leopards were dropped at drop areas for each player. See image 15 after the 2nd move of white.
+
+##### Image 15: Position after 2. L@b0
+
+![](https://i.imgur.com/QiXBA58.png)
+
+Third move dropped the cannons. That also completes the GP. See image 16.
+
+##### Image 16: White to play after move 3, completing the PS and GP phases.
+
+![](https://i.imgur.com/gMmsQa6.png)
 
 #### 3. The moves in playing area and gating move
 On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
