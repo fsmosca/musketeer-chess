@@ -228,7 +228,7 @@ From image 9, black can capture the knight by f5b1 or Bxb1, as a result white co
 
 ![cannon cannot enter the playing area](https://i.imgur.com/1JHmPFQ.png)
 
-That cannon marked X cannot enter the playing area for the rest of the game.
+That cannon marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game.
 
 #### b. The king is in check
 If a musketeer piece is dropped at column e or king file and if the king is in check and this king cannot capture its attacker, and is forced to make a move, see image 11, the player could no longer gate the musketeer piece for the rest of the game.
@@ -243,7 +243,7 @@ White to play and its king is under check or attack, the king cannot capture the
 
 ![leopard loses the right to gate](https://i.imgur.com/miyJgHh.png)
 
-The musketeer piece marked X cannot enter the playing area for the rest of the game.
+The musketeer piece marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game.
 
 ### 5. Dropping of musketeer pieces
 It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
