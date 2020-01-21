@@ -66,7 +66,7 @@ Generally this game has 2 initial phases in order
 
 #### The first move of musketeer chess
 
-The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
+The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. Only 2 musketeer piece types are allowed, first is the one selected by white and second the one selected by black.
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1 below. See also an example [move sequence in example game section](#j-example-game) for first move.
 
