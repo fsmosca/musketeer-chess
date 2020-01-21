@@ -219,6 +219,13 @@ The musketeer piece marked X cannot enter the playing area for the rest of the g
 ### 5. Dropping of musketeer pieces
 It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
 
+### 6. Gating and pinned piece
+It is illegal to move a pinned piece even if it gates a musketeer piece covering the king attacker. In image 14, the rook pinned the knight, the knight could have gated by Nc3/H or Na3/H or Nd2/H gating the hawk to square B1 - covering the rook attacker, but this is illegal.
+
+##### Image 14: White to move, black rook pins the white knight
+
+![pinned knight](https://i.imgur.com/UPCSzn2.png)
+
 ## H. Performance test or perft
 Counts leaf nodes from a given depth see typical ref for chess at https://www.chessprogramming.org/Perft
 
