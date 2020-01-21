@@ -6,7 +6,7 @@ Musketeer chess is a chess variant invented by Zied Haddad. It is basically a ch
 
 It is played on 10x8 board or 10 rows by 8 columns.
 
-#### Image 1: Initial board layout
+##### Image 1: Initial board layout
 
 ![image 1](https://i.imgur.com/H0uCk6Q.png)
 
@@ -61,9 +61,9 @@ After which the game may start as in chess but with gating moves.
 
 The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. 
 
-For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1.
+For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. [See image 1-1](#image-1-1-piece-selection-phase-is-completed).
 
-#### Image 1.1: Piece selection phase is completed
+##### Image 1-1 Piece selection phase is completed
 
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
@@ -82,14 +82,14 @@ It is not allowed to drop a musketeer piece at column e and another at column a 
 
 That completes the PS and GP phases.
 
-#### Image 2: Position after PS and GP
+##### Image 2: Position after PS and GP
 
 ![Image 2](https://i.imgur.com/EulKRvg.png)
 
 ## E. Gating move
 After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3/L`, moving the knight to square C3 and leopard to B1 all in a single move. See image 3.
 
-#### Image 3: Position after the gate move b1c3l or Nc3/L
+##### Image 3: Position after the gate move b1c3l or Nc3/L
 
 ![image 3](https://i.imgur.com/vzqD0O1.png)
 
@@ -226,9 +226,9 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 4. d4  Nf6/L
 ```
 #### Move comment
-White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, see image 1.1. On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
+White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image 1-1](#image-1-1-piece-selection-phase-is-completed). On the second move, leopards were dropped at drop areas for each player. Third move dropped the cannons. That also completes the GP. On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
 
-#### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
+##### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
 
 ![example game](https://i.imgur.com/sN1iuzC.png)
 
