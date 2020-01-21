@@ -10,11 +10,17 @@ It is played on 10x8 board or 10 rows by 8 columns.
 
 ![image 1](https://i.imgur.com/H0uCk6Q.png)
 
-There are 10 rows, row 0, row 1 ... till row 9. There are also 8 columns, column a, column b till column h. Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 9 or squares [A9, B9 ... H9]. The playing area is the same as in chess bounded by squares A1, H1, H8, A8. A row can also be called a rank and a column can also be called a file.
+There are 10 rows, row 0, row 1 ... up to row 9. There are also 8 columns, column a, column b up to column h. A row can also be called a rank and a column can also be called a file.
+
+#### The drop areas
+Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 9 or squares [A9, B9 ... H9]. The pieces in drop areas can only enter the playing area through gating moves. [See example in gating section](#a-normal-gating-move).
+
+#### The playing area
+The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The pieces inside the playing area cannot move into the drop areas.
 
 Generally this game has 2 initial phases in order
-1. PS (piece selection)
-2. GP (gating preparation)  
+1. PS (piece selection), [described in section C](#c-piece-selection)
+2. GP (gating preparation) [described in section D](#d-gating-preparation) 
 
 After which the game may start as in chess but with gating moves.
 
