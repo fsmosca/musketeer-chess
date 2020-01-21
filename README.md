@@ -45,6 +45,8 @@ Generally this game has 2 initial phases in order
 3. Then the game can continue as in chess. [See game example section.](#j-example-game)
 
 ## B. Musketeer pieces
+[Back to table of contents](#table-of-contents)
+
 #### Piece names
 1. Leopard
 2. Cannon
@@ -82,6 +84,7 @@ Generally this game has 2 initial phases in order
 * S = B2DN
 
 ## C. Piece selection
+[Back to table of contents](#table-of-contents)
 
 #### The first move of musketeer chess
 
@@ -94,6 +97,8 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
 ## D. Gating preparation
+[Back to table of contents](#table-of-contents)
+
 Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
 
 The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the drop areas, [see image 1](#image-1-initial-board-layout).
@@ -113,6 +118,8 @@ That completes the PS and GP phases.
 ![Image 2](https://i.imgur.com/EulKRvg.png)
 
 ## E. Gating move
+[Back to table of contents](#table-of-contents)
+
 After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3/L`, moving the knight to square C3 and leopard to B1 all in a single move. See image 3.
 
 ##### Image 3: Position after the gate move b1c3l or Nc3/L
@@ -122,6 +129,8 @@ After PS and GP phases see image 2, white can play a gating move `b1c3l` or `Nc3
 That enters the leopard into the playing area. It can now move according to its movement rules described in section F.
 
 ## F. Piece movements
+[Back to table of contents](#table-of-contents)
+
 See how musketeer pieces move in a playing area at https://musketeerchess.net/site/game-rules/
 
 #### 1. Leopard
@@ -167,6 +176,7 @@ See how musketeer pieces move in a playing area at https://musketeerchess.net/si
 * Movement image
   
 ## G. Game rules
+[Back to table of contents](#table-of-contents)
 
 ### 1. Gating
 A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
@@ -246,6 +256,8 @@ It is illegal to move a pinned piece even if it gates a musketeer piece covering
 ![pinned knight](https://i.imgur.com/UPCSzn2.png)
 
 ## H. Performance test or perft
+[Back to table of contents](#table-of-contents)
+
 Counts leaf nodes from a given depth see typical ref for chess at https://www.chessprogramming.org/Perft
 
 See the [Perft folder of this repo](https://github.com/fsmosca/musketeer-chess/tree/master/Perft) to see other perft of specific musketeer piece combinations.
@@ -255,6 +267,8 @@ See the [Perft folder of this repo](https://github.com/fsmosca/musketeer-chess/t
 * perft 4: `195507`
 
 ## I. Musketeer GUI
+[Back to table of contents](#table-of-contents)
+
   * Winboard
     * Windows desktop
       * Program
@@ -266,6 +280,8 @@ See the [Perft folder of this repo](https://github.com/fsmosca/musketeer-chess/t
       * https://musketeerchess.net/games/musketeer/index.php
 
 ## J. Example game
+[Back to table of contents](#table-of-contents)
+
 ```
 1. leopard  cannon
 2. L@b0  L@g9
@@ -320,6 +336,8 @@ On move 4, white opens the game with d4, black replied with a gating move Nc3/L 
 ![example game](https://i.imgur.com/sN1iuzC.png)
 
 ## K. References
+[Back to table of contents](#table-of-contents)
+
 * Official site
   * https://musketeerchess.net/home/index.html
 * Official game rules
