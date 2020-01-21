@@ -248,7 +248,7 @@ It is illegal to move a pinned piece even if it gates a musketeer piece covering
 ## H. Performance test or perft
 Counts leaf nodes from a given depth see typical ref for chess at https://www.chessprogramming.org/Perft
 
-See the Perft folder of this repo to see other perft of specific musketeer piece combinations.
+See the [Perft folder of this repo](https://github.com/fsmosca/musketeer-chess/tree/master/Perft) to see other perft of specific musketeer piece combinations.
 
 #### Leopard/Cannon
 * fen: `lc******/rnbqkbnr/pppppppp/8/8/8/8/PPPPPPPP/RNBQKBNR/LC****** w KQkq - 0 1`
