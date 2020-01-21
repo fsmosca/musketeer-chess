@@ -267,24 +267,30 @@ White selected a leopard in the first move. What white has selected, black can h
 
 ![](https://i.imgur.com/y3cn7c2.png)
 
-Black replied by selecting a cannon. See image below.
+Black replied by selecting a cannon. What black has selected, white can have it too. See image below.
 
 ##### Position after 1... cannon
 
 ![](https://i.imgur.com/5VmiMxQ.png)
 
-In this game, only 2 piece types are allowed to be selected, so piece selection phase is now complete. Both sides have now a leopard and a cannon. Selectable pieces that were not selected are now removed on the board, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
+In this game, only 2 piece types are allowed to be selected, so piece selection phase is now complete. Both sides have now a leopard and a cannon. Selectable pieces that were not selected are removed from the board, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
 
 #### 2. Gating preparation phase (move 2 and 3)
-On the second move, leopards were dropped at drop areas for each player. See image 15 after the 2nd move of white.
+On the second move, white dropped its leopard at column b. See image below.
 
-##### Image 15: Position after 2. L@b0
+##### Position after 2. L@b0
 
 ![](https://i.imgur.com/QiXBA58.png)
 
-Third move dropped the cannons. That also completes the GP. See image 16.
+Black dropped its leopard at column g. See image below.
 
-##### Image 16: White to play after move 3, completing the PS and GP phases.
+##### Position after 2... L@g9
+
+![](https://i.imgur.com/ITMYgeh.png)
+
+Third move dropped the cannons. That completes the gating preparation. See image below.
+
+##### White to play after move 3
 
 ![](https://i.imgur.com/gMmsQa6.png)
 
