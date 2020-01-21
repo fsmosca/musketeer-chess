@@ -256,8 +256,18 @@ See the Perft folder of this repo to see other perft of specific musketeer piece
 ```
 ### Game comment
 
+The start position will allow the user to select a piece, see image below. This system is the one used in https://musketeerchess.net/games/musketeer/index.php.
+
+![](https://i.imgur.com/jELMGL0.png)
+
 #### 1. Piece selection phase (move 1)
-White selected a leopard in the first move, black replied by selecting a cannon. PS is now complete. Both sides have now a leopard and a cannon, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
+White selected a leopard in the first move. What white has selected, black can have that piece too. See image below.
+
+##### Position after 1. leopard
+
+![](https://i.imgur.com/y3cn7c2.png)
+
+Black replied by selecting a cannon. Piece selection phase is now complete. Both sides have now a leopard and a cannon, [see image 1.1](#image-11-piece-selection-phase-is-completed). 
 
 #### 2. Gating preparation phase (move 2 and 3)
 On the second move, leopards were dropped at drop areas for each player. See image 15 after the 2nd move of white.
