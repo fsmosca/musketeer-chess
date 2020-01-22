@@ -21,9 +21,9 @@ Game rules and performance test
 * [K. References](#k-references)
 
 ## A. Introduction
-Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess game but with new selectable piece types such as Leopard, Cannon and others, [see section B](#b-musketeer-pieces), that will be added to the game.
+Musketeer chess is a chess variant invented by Zied Haddad. It is basically a chess game but with 10 new selectable piece types such as Leopard, Cannon and [others](#b-musketeer-pieces), that will be added to the game.
 
-It is played on 10x8 board or 10 rows by 8 columns. But most of the game happens on 8x8 board as in chess.
+It is played on 10x8 board or 10 rows by 8 columns. But most of the actions happen on 8x8 board as in chess.
 
 ##### Image 1: Initial board layout
 
@@ -39,10 +39,10 @@ Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 
 The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The pieces inside the playing area cannot move into the drop areas.
 
 #### Game overview
-Generally this game has 2 initial phases in order
+This game has 2 initial phases in order, before the the game starts like in chess
 1. PS (piece selection), [described in section C](#c-piece-selection)
-2. GP (gating preparation) [described in section D](#d-gating-preparation) 
-3. Then the game can continue as in chess. [See game example section.](#j-example-game)
+2. GP (gating preparation) [described in section D](#d-gating-preparation)  
+Then the game can continue as in chess. [See game example section.](#j-example-game)
 
 ## B. Musketeer pieces
 [Back to table of contents](#table-of-contents)
