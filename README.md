@@ -42,6 +42,7 @@ The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The 
 This game has 2 initial phases in order, before the the game starts like in chess
 1. PS (piece selection), [described in section C](#c-piece-selection)
 2. GP (gating preparation) [described in section D](#d-gating-preparation)  
+
 Then the game can continue as in chess. [See game example section.](#j-example-game)
 
 ## B. Musketeer pieces
@@ -88,7 +89,7 @@ Then the game can continue as in chess. [See game example section.](#j-example-g
 
 #### The first move of musketeer chess
 
-The first move in musketeer chess is PS (piece selection). A white player may select 1 piece type from the selectable 10 musketeer piece types in item B and black follows by selecting another piece type. Only 2 musketeer piece types are allowed, first is the one selected by white and second the one selected by black.
+The first move in musketeer chess is PS (piece selection). White may select 1 piece type from the 10 selectable musketeer piece types in item B and black follows by selecting another piece type. Only 2 piece types are allowed, first is the one selected by white and second the one selected by black.
 
 For example white may select a Leopard and Black can reply by selecting a Cannon (or any other piece but not the piece type selected by white). There after, both sides will have Leopard and Cannon as their additional pieces for the game. See image 1.1 below. See also an example [move sequence in example game section](#j-example-game) for first move.
 
@@ -99,19 +100,19 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ## D. Gating preparation
 [Back to table of contents](#table-of-contents)
 
-Gating is a move that enters the musketeer piece into the playing area. But before a gate move can be executed on the board, the player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
+Gating is a move that enters the musketeer piece into the [playing area](#image-1-initial-board-layout). But before a gate move can be executed on the board, a player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
 
-The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the drop areas, [see image 1](#image-1-initial-board-layout).
+The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the [drop areas](#image-1-initial-board-layout).
 
 #### The second move of musketeer chess
-The second move will be dropping of first selected piece (leopard), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its leopard to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
+The second move will be dropping of first selected piece (leopard in the example in section C), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its leopard to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
 
 #### The third move of musketeer chess
 The third move will be dropping of second selected piece (cannon), for example white can play C@d0 and Black can reply with C@f9.
 
 It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. [See item 5 in game rules section](#5-dropping-of-musketeer-pieces).
 
-That completes the PS and GP phases.
+That completes the PS and GP phases, see image below.
 
 ##### Image 2: Position after PS and GP
 
@@ -131,7 +132,7 @@ That enters the leopard into the playing area. It can now move according to its 
 ## F. Piece movements
 [Back to table of contents](#table-of-contents)
 
-See how musketeer pieces move in a playing area at https://musketeerchess.net/site/game-rules/
+See also the official site for musketeer chess at https://musketeerchess.net/site/game-rules/
 
 #### 1. Leopard
 * Move description
