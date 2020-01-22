@@ -379,7 +379,10 @@ On move 4, white opens the game with d4, black replied with a gating move Nf6/L 
 * Official site
   * https://musketeerchess.net/home/index.html
 * Official game rules
-  * https://musketeerchess.net/site/game-rules/
+  * Short
+    * https://musketeerchess.net/games/musketeer/rules/rules-short.php
+  * Descriptive
+    * https://musketeerchess.net/site/game-rules/
 * Rules of Chess
   * https://en.wikipedia.org/wiki/Rules_of_chess
 * Musketeer Stockfish
