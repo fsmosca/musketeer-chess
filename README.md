@@ -53,6 +53,10 @@ This game has 2 initial phases in order, before the the game starts like in ches
 
 Then the game can continue as in chess. [See game example section.](#j-example-game)
 
+#### The official musketeer game rules
+ * https://musketeerchess.net/games/musketeer/rules/rules-short.php
+ * https://musketeerchess.net/site/game-rules/
+
 ## B. Musketeer pieces
 [Back to table of contents](#table-of-contents)
 
