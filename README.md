@@ -199,12 +199,16 @@ From image 4, white can play `b1c3l` or `Nc3/L` gating move.
 ##### Image 5: Position after b1c3l
 ![](https://i.imgur.com/Bah6x1E.png)
 
+The cannon is now in [playing area](#image-1-initial-board-layout) at square B1.
+
 ##### b. Castle with gating at king column
 From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
 
 ##### Image 6: Position after e1g1l gating move
 
 ![castle gating](https://i.imgur.com/O37xoXU.png)
+
+Leopard is now in playing area at E1.
 
 ##### c. Castle with gating at rook column
 Castle with gating at rook column is also possible. See image below.
@@ -217,7 +221,7 @@ White castles with gating by e1g1l, see image below.
 ##### Position after e1g1l or O-O/L
 ![](https://i.imgur.com/e6KV32s.png)
 
-The leopard has now entered the playing area.
+The leopard has now entered the playing area at H1.
 
 ### 2. Promotion
 A pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece. For example in PS (piece selections) phase, a leopard and a cannon were selected, a pawn can promote to either of those piece type.
