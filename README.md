@@ -16,6 +16,8 @@ Game rules and performance test
   * [6. Archbishop](#6-archbishop)
   * [7. Elephant](#7-elephant)
   * [8. Hawk](#8-hawk)
+  * [9. Fortress](#9-fortress)
+  * [10. Spider](#10-spider)
 * [G. Game rules](#g-game-rules)
   * [1. Gating](#1-gating)
   * [2. Promotion](#2-promotion)
@@ -206,20 +208,21 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 * Movement image
   * ![hawk](https://i.imgur.com/EWmlalw.png)
   
-  
 #### 9. Fortress
 * Move description
-  * Can move like a bishop as in chess.
-  * Can move like a knight as in chess.
+  * Can move like a bishop as in chess but limited to a maximum of 3 squares.
+  * Can move like a knight as in chess, but only at front and back.
+  * Can jump at a distance of 2 squares horizontally and veritically.
 * Movement image
-  
-  
+  * ![fortress](https://i.imgur.com/Y0rnhk4.png)
+
 #### 10. Spider
 * Move description
-  * Can move like a bishop as in chess.
+  * Can move like a bishop as in chess but is limited to a maximum of 2 squares.
   * Can move like a knight as in chess.
+  * Can jump at a distance of 2 squares horizontally and veritically.
 * Movement image
-  
+  * ![spider](https://i.imgur.com/uCD8pOA.png)
   
 ## G. Game rules
 [Back to table of contents](#table-of-contents)
