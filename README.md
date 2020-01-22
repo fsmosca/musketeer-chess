@@ -49,11 +49,11 @@ Drop area of white is at row 0 or squares [A0, B0 ... H0] while black is at row 
 The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The pieces inside the playing area cannot move into the drop areas.
 
 #### Game overview
-This game has 2 initial phases in order, before the the game starts like in chess
-1. PS (piece selection), [described in section C](#c-piece-selection)
-2. GP (gating preparation) [described in section D](#d-gating-preparation)  
+This game has 2 initial phases in order, before the game starts like chess.
+1. PS (piece selection), [described in section C](#c-piece-selection), players selects 2 musketeer piece types
+2. GP (gating preparation) [described in section D](#d-gating-preparation), dropping/placing of selected pieces into the designated drop areas, getting ready to gate/enter the selected pieces from drop areas into the playing area
 
-Then the game can continue as in chess. [See game example section.](#j-example-game)
+Then the game can continue as in chess but with gating moves. [See game example section.](#j-example-game)
 
 #### The official musketeer game rules
  * https://musketeerchess.net/games/musketeer/rules/rules-short.php
