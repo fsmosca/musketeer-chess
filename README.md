@@ -367,9 +367,9 @@ Third move dropped the cannons. That completes the gating preparation. See image
 Be noted that the first piece selected should be the first piece to be dropped in drop areas. In the example leopard was selected first so it was the piece that was dropped first followed by cannon.
 
 #### 3. The moves in playing area and gating move
-On move 4, white opens the game with d4, black replied with a gating move Nc3/L - moved the knight to square F6 and leopard enters at G8. See image 13.
+On move 4, white opens the game with d4, black replied with a gating move Nf6/L - moved the knight to square F6 and leopard enters at G8. See image 13.
 
-##### Image 13: Black leopard enters the playing area by the gate move Nc3/L or g8f6l
+##### Image 13: Black leopard enters the playing area by the gate move Nf6/L or g8f6l
 
 ![example game](https://i.imgur.com/sN1iuzC.png)
 
