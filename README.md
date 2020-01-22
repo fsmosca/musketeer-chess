@@ -112,7 +112,7 @@ For example white may select a Leopard and Black can reply by selecting a Cannon
 ![PS](https://i.imgur.com/wzZ0J9h.png)
 
 #### The default musketeer pieces
-During piece selection process, black has the option to use the default musketeer piece types to be used in the game, [see item 7 in game rule](#7-the-default-musketeer-piece-type).
+During piece selection process, black has the option to use the default musketeer piece types to be used in the game, [see item 6 in game rule](#6-the-default-musketeer-piece-type).
 
 ## D. Gating preparation
 [Back to table of contents](#table-of-contents)
