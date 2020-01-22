@@ -15,6 +15,7 @@ Game rules and performance test
   * [4. Losing the right to gate](#4-losing-the-right-to-gate)
   * [5. Dropping of musketeer pieces](#5-dropping-of-musketeer-pieces)
   * [6. Gating and pinned piece](#6-gating-and-pinned-piece)
+  * [7. The default musketeer piece type](#7-the-default-musketeer-piece-type)
 * [H. Performance test or perft](#h-performance-test-or-perft)
 * [I. Musketeer GUI](#i-musketeer-gui)
 * [J. Example game](#j-example-game)
@@ -183,6 +184,8 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 ## G. Game rules
 [Back to table of contents](#table-of-contents)
 
+The following are the rules that are different from Chess.
+
 ### 1. Gating
 A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
 
@@ -264,7 +267,11 @@ White to play and its king is under check or attack, the king cannot capture the
 The musketeer piece marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game.
 
 ### 5. Dropping of musketeer pieces
-It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
+It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). 
+
+For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. 
+
+The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
 
 ### 6. Gating and pinned piece
 It is illegal to move a pinned piece even if it gates a musketeer piece covering the king attacker. In image 14, the rook pinned the knight, the knight could have gated by Nc3/H or Na3/H or Nd2/H gating the hawk to square B1 - covering the rook attacker, but this is illegal.
