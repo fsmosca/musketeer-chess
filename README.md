@@ -175,6 +175,7 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
   * Can move like a bishop as in chess.
   * Can move like a knight as in chess.
 * Movement image
+  * ![archbishop](https://i.imgur.com/oGe1gkc.png)
   
 ## G. Game rules
 [Back to table of contents](#table-of-contents)
