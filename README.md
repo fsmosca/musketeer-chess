@@ -226,58 +226,58 @@ The following are the rules that are different from Chess.
 ### 1. Gating
 A gating move enters the musketeer piece from drop area to the [playing area](#image-1-initial-board-layout).
 
-##### Image 4: Sample position white to move.
+##### Image 4: White to move.
 
 ![image 4](https://i.imgur.com/1e0uMMI.png)
 
-##### a. Normal gating move
-From image 4, white can play `b1c3l` or `Nc3/L` gating move.
+#### a. Normal gating move
+From image 4, white can play `b1c3l` or `Nc3/L` gating move. See image below.
 
-##### Image 5: Position after b1c3l
+##### Image 5: Position after `b1c3l` or `Nc3/L`
 ![](https://i.imgur.com/Bah6x1E.png)
 
 The cannon is now in playing area at square B1.
 
-##### b. Castle with gating at king column
-From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
+#### b. Castle with gating at king column
+From image 4, white can castle with `e1g1l` or `O-O/L` gating move. See image below.
 
-##### Image 6: Position after e1g1l gating move
+##### Image 6: Position after `e1g1l` or `O-O/L`
 
 ![castle gating](https://i.imgur.com/O37xoXU.png)
 
 Leopard is now in playing area at E1.
 
-##### c. Castle with gating at rook column
+#### c. Castle with gating at rook column
 Castle with gating at rook column is also possible. See image below.
 
 ##### White to move and ready to castle
 ![](https://i.imgur.com/w7fWtBE.png)
 
-White castles with gating by e1g1l, see image below.
+White castles with gating by `e1g1l` or `O-O/L`, see image below.
 
-##### Position after e1g1l or O-O/L
+##### Position after `e1g1l` or `O-O/L`
 ![](https://i.imgur.com/e6KV32s.png)
 
 The leopard has now entered the playing area at H1.
 
-### 2. Promotion
-A pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece. For example in PS (piece selections) phase, a leopard and a cannon were selected, a pawn can promote to either of those piece type.
+#### d. King captures the attacker as check evasion with gating
 
-### 3. King is in check
-
-##### Image 7: White to move, its king is in check
+##### Image 7: White to move
 
 ![king in check](https://i.imgur.com/NA36dXg.png)
 
-The king cannot gate if in check and is forced to move except if that king captures the attacker. See image below.
+White king captures the attacker by `e1f2l` or `Kxf2/L` with gating. See image below.
 
-##### Image 8: King evades the attack by capturing its attacker
+##### Image 8: Position after Kxf2/L
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
 
 Since the king captures its attacker on square F2, it is able to gate the leopard to square E1.
 
-### 4. Losing the right to gate
+### 2. Promotion
+A pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piece. For example in PS (piece selections) phase, a leopard and a cannon were selected, a pawn can promote to either of those piece type.
+
+### 3. Losing the right to gate
 There are situations where a player cannot gate its musketeer piece.
 
 #### a. The piece in front of it, is captured.
@@ -309,21 +309,21 @@ White to play and its king is under check or attack, the king cannot capture the
 
 The musketeer piece marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game.
 
-### 5. Dropping of musketeer pieces
+### 4. Dropping of musketeer pieces
 It is not allowed to drop a musketeer piece at column e or (king column) and the other musketeer piece at column a or h or (rook column). 
 
 For example if the first selected piece is dropped at king column, the second selected piece must not be dropped at rook column. Likewise if the first selected piece is dropped at rook column, the second selected piece must not be dropped at king column. 
 
 The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
 
-### 6. Gating and pinned piece
+### 5. Gating and pinned piece
 It is illegal to move a pinned piece even if it gates a musketeer piece covering the king attacker. In image 14, the rook pinned the knight, the knight could have gated by Nc3/H or Na3/H or Nd2/H gating the hawk to square B1 - covering the rook attacker, but this is illegal.
 
 ##### Image 14: White to move, black rook pins the white knight
 
 ![pinned knight](https://i.imgur.com/UPCSzn2.png)
 
-### 7. The default musketeer piece type
+### 6. The default musketeer piece type
 Piece selection has default values and these are **cannon** and **leopard**.
 
 During piece selection process, black has the option to choose a default musketeer piece types to be used in the game. For example white selected a spider, and if black does not like it, black should inform white that they will use the default musketeer piece types. The default cannon/leopard can be change by the tournament director before the match or tournament starts.
