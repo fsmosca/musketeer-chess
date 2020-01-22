@@ -19,11 +19,10 @@ Game rules and performance test
 * [G. Game rules](#g-game-rules)
   * [1. Gating](#1-gating)
   * [2. Promotion](#2-promotion)
-  * [3. King is in check](#3-king-is-in-check)
-  * [4. Losing the right to gate](#4-losing-the-right-to-gate)
-  * [5. Dropping of musketeer pieces](#5-dropping-of-musketeer-pieces)
-  * [6. Gating and pinned piece](#6-gating-and-pinned-piece)
-  * [7. The default musketeer piece type](#7-the-default-musketeer-piece-type)
+  * [3. Losing the right to gate](#3-losing-the-right-to-gate)
+  * [4. Dropping of musketeer pieces](#4-dropping-of-musketeer-pieces)
+  * [5. Gating and pinned piece](#5-gating-and-pinned-piece)
+  * [6. The default musketeer piece type](#6-the-default-musketeer-piece-type)
 * [H. Performance test or perft](#h-performance-test-or-perft)
 * [I. Musketeer GUI](#i-musketeer-gui)
 * [J. Example game](#j-example-game)
@@ -280,30 +279,30 @@ A pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piec
 ### 3. Losing the right to gate
 There are situations where a player cannot gate its musketeer piece.
 
-#### a. The piece in front of it, is captured.
+#### a. The gate helper is captured
 
 ##### Image 9: Black to play
 
 ![bishop captures knight](https://i.imgur.com/FraBYTh.png)
 
-From image 9, black can capture the knight by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
+From image 9, black can capture the knight (gate helper) by f5b1 or Bxb1, as a result white could no longer gate its cannon. See image 10.
 
-##### Image 10: White loses the right to gate its cannon.
+##### Image 10: Position after black's Bxb1
 
 ![cannon cannot enter the playing area](https://i.imgur.com/1JHmPFQ.png)
 
-That cannon marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game.
+That cannon marked X cannot enter the [playing area](#image-1-initial-board-layout) for the rest of the game, because its gate helper is captured.
 
-#### b. The king is in check
-If a musketeer piece is dropped at column e or king file and if the king is in check and this king cannot capture its attacker, and is forced to make a move, see image 11, the player could no longer gate the musketeer piece for the rest of the game.
+#### b. The king is in check and is forced to move without capturing the attacker
+If a musketeer piece is dropped at column e or king file, king becomes the gate helper. If this king is in check and cannot capture its attacker, and is forced to make a move, see image below, the player could no longer gate the musketeer piece for the rest of the game.
 
 ##### Image 11: White king is in check, attacker is far from king
 
 ![King in check](https://i.imgur.com/GNlDc2C.png)
 
-White to play and its king is under check or attack, the king cannot capture the queen at H4, its only move is e1d2 or Kd2. See image 12.
+The king cannot capture the queen attacker at square H4, its only move is `e1d2` or `Kd2`. See image below.
 
-##### Image 12: King loses the right to gate its leopard
+##### Image 12: Position after `Kd2`, Leopard cannot gate
 
 ![leopard loses the right to gate](https://i.imgur.com/miyJgHh.png)
 
