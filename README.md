@@ -224,9 +224,9 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 The following are the rules that are different from Chess.
 
 ### 1. Gating
-A gating move enters the musketeer piece into the playing area, after the PS and GP phases.
+A gating move enters the musketeer piece from drop area to the [playing area](#image-1-initial-board-layout).
 
-##### Image 4: Sample position after PS and GP, white to move.
+##### Image 4: Sample position white to move.
 
 ![image 4](https://i.imgur.com/1e0uMMI.png)
 
@@ -236,7 +236,7 @@ From image 4, white can play `b1c3l` or `Nc3/L` gating move.
 ##### Image 5: Position after b1c3l
 ![](https://i.imgur.com/Bah6x1E.png)
 
-The cannon is now in [playing area](#image-1-initial-board-layout) at square B1.
+The cannon is now in playing area at square B1.
 
 ##### b. Castle with gating at king column
 From image 4, white can castle with `e1g1l` or `O-O/L` gating move.
