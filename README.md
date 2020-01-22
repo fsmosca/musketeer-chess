@@ -153,74 +153,74 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 
 #### 1. Leopard
 * Move description
-  * It can jump like a knight as in chess.
-  * It can slide like a bishop as in chess but is limited to a maximum of 2 squares.
+  * It can move like a knight as in chess.
+  * It can move like a bishop as in chess but is limited to a maximum of 2 squares.
 * Movement image
   * ![leopard](https://i.imgur.com/4m6AOzc.png)
   
 #### 2. Cannon
 * Move description
-  * Can jump like a knight as in chess but at the sides only.
-  * Can move like a king as in chess.
-  * Can jump at a distance of 2 squares horizontally and vertically.
+  * It can move like a knight as in chess but at the sides only.
+  * It can move like a king as in chess.
+  * It can jump to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![cannon](https://i.imgur.com/M1v9LZj.png)
   
 #### 3. Unicorn
 * Move description
-  * Can jump like a knight as in chess.
-  * Can jump to a square adjacent to the knight destination square in the north, south, east and west directions.
+  * It can move like a knight as in chess.
+  * It can jump to a square adjacent to the knight destination square in the north, south, east and west directions.
 * Movement image
   * ![unicorn](https://i.imgur.com/axScV2u.png)
   
 #### 4. Dragon
 * Move description
-  * Can move like a queen as in chess.
-  * Can move like a knight as in chess.
+  * It can move like a queen as in chess.
+  * It can move like a knight as in chess.
 * Movement image
   * ![dragon](https://i.imgur.com/KBb0u6U.png)
   
 #### 5. Chancellor
 * Move description
-  * Can move like a rook as in chess.
-  * Can move like a knight as in chess.
+  * It can move like a rook as in chess.
+  * It can move like a knight as in chess.
 * Movement image
   * ![chancellor](https://i.imgur.com/4jZLzHB.png)
     
 #### 6. Archbishop
 * Move description
-  * Can move like a bishop as in chess.
-  * Can move like a knight as in chess.
+  * It can move like a bishop as in chess.
+  * It can move like a knight as in chess.
 * Movement image
   * ![archbishop](https://i.imgur.com/oGe1gkc.png)
   
 #### 7. Elephant
 * Move description
-  * Can move like a king as in chess.
-  * Can jump at a distance of 2 squares, horizontally, vertically and diagonally.
+  * It can move like a king as in chess.
+  * It can jump to a distance of 2 squares, horizontally, vertically and diagonally.
 * Movement image
   * ![elephant](https://i.imgur.com/j2wgFLe.png)
   
 #### 8. Hawk
 * Move description
-  * Can jump at a distance of 2 squares, horizontally, vertically and diagonally.
-  * Can jump at a distance of 3 squares, horizontally, vertically and diagonally.
+  * It can jump to a distance of 2 squares, horizontally, vertically and diagonally.
+  * It can jump to a distance of 3 squares, horizontally, vertically and diagonally.
 * Movement image
   * ![hawk](https://i.imgur.com/EWmlalw.png)
   
 #### 9. Fortress
 * Move description
-  * Can move like a bishop as in chess but limited to a maximum of 3 squares.
-  * Can move like a knight as in chess, but only at front and back.
-  * Can jump at a distance of 2 squares horizontally and veritically.
+  * It can move like a bishop as in chess but is limited to a maximum of 3 squares.
+  * It can move like a knight as in chess, but only at front and back.
+  * It can jump to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![fortress](https://i.imgur.com/Y0rnhk4.png)
 
 #### 10. Spider
 * Move description
-  * Can move like a bishop as in chess but is limited to a maximum of 2 squares.
-  * Can move like a knight as in chess.
-  * Can jump at a distance of 2 squares horizontally and veritically.
+  * It can move like a bishop as in chess but is limited to a maximum of 2 squares.
+  * It can move like a knight as in chess.
+  * It can jump to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![spider](https://i.imgur.com/uCD8pOA.png)
   
