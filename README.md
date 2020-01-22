@@ -181,6 +181,35 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 * Movement image
   * ![archbishop](https://i.imgur.com/oGe1gkc.png)
   
+#### 7. Elephant
+* Move description
+  * Can move like a king as in chess.
+  * Can jump at a distance of 2 squares, horizontally, vertically and diagonally.
+* Movement image
+  * ![elephant](https://i.imgur.com/j2wgFLe.png)
+  
+#### 8. Hawk
+* Move description
+  * Can jump at a distance of 2 squares, horizontally, vertically and diagonally.
+  * Can jump at a distance of 3 squares, horizontally, vertically and diagonally.
+* Movement image
+  * ![hawk](https://i.imgur.com/EWmlalw.png)
+  
+  
+#### 9. Fortress
+* Move description
+  * Can move like a bishop as in chess.
+  * Can move like a knight as in chess.
+* Movement image
+  
+  
+#### 10. Spider
+* Move description
+  * Can move like a bishop as in chess.
+  * Can move like a knight as in chess.
+* Movement image
+  
+  
 ## G. Game rules
 [Back to table of contents](#table-of-contents)
 
