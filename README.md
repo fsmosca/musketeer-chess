@@ -127,7 +127,7 @@ The second move will be dropping of first selected piece (leopard in the example
 #### The third move of musketeer chess
 The third move will be dropping of second selected piece (cannon), for example white can play C@d0 and Black can reply with C@f9.
 
-It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. [See item 5 in game rules section](#5-dropping-of-musketeer-pieces).
+It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. [See item 4 in game rules section](#4-dropping-of-musketeer-pieces).
 
 That completes the PS and GP phases, see image below.
 
