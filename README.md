@@ -232,11 +232,13 @@ A pawn can promote to either N, B, R, Q, 1st selected piece or 2nd selected piec
 
 ![king in check](https://i.imgur.com/NA36dXg.png)
 
-* The king cannot gate if in check except if that king captures the attacker. See image below.
+The king cannot gate if in check and is forced to move except if that king captures the attacker. See image below.
 
 ##### Image 8: King evades the attack by capturing its attacker
 
 ![king capture check evasion](https://i.imgur.com/2MB76JC.png)
+
+Since the king captures its attacker on square F2, it is able to gate the leopard to square E1.
 
 ### 4. Losing the right to gate
 There are situations where a player cannot gate its musketeer piece.
