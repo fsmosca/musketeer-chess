@@ -117,17 +117,15 @@ During piece selection process, black has the option to use the default musketee
 ## D. Gating preparation
 [Back to table of contents](#table-of-contents)
 
-Gating is a move that enters the musketeer piece into the [playing area](#image-1-initial-board-layout). But before a gate move can be executed on the board, a player has to decide which column the selected pieces will be gated. White can drop the musketeer pieces at row 0 at any column while Black can drop at row 9 at any column as gating preparations.
-
-The second and third moves in musketeer chess can be called GP (Gating Preparation). It consists of dropping the musketeer pieces on the [drop areas](#image-1-initial-board-layout).
+GP (Gating Preparation) is about dropping or placing of selected musketeer pieces into the [designated drop areas](#image-1-initial-board-layout). A player will decide at what column the selected pieces will be dropped. This is just a preparation to gate or enter these selected pieces from drop areas into playing area. White can drop the selected pieces at row 0 at any column while Black can drop at row 9 at any column.
 
 #### The second move of musketeer chess
-The second move will be dropping of first selected piece (leopard in the example in section C), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its leopard to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
+The second move will be dropping of first selected piece (leopard from the example in section C), for example white can play L@b0 or dropping a leopard to square B0. In this case white prepares its leopard to be gated at column b. Black can reply with L@g9 or leopard to square G9, planning to gate its leopard at column g.
 
 #### The third move of musketeer chess
-The third move will be dropping of second selected piece (cannon), for example white can play C@d0 and Black can reply with C@f9.
+The third move will be dropping of second selected piece (cannon from the example in section C), for example white can play C@d0 and Black can reply with C@f9.
 
-It is not allowed to drop a musketeer piece at column e and another at column a or h because it will gate the musketeer pieces at the same time during castling. [See item 4 in game rules section](#4-dropping-of-musketeer-pieces).
+It is not allowed to drop a selected musketeer piece at column e (king column) and another at column a or h (rook column) because it will gate the two selected musketeer pieces at the same time during castling. [See item 4 in game rules section](#4-dropping-of-musketeer-pieces).
 
 That completes the PS and GP phases, see image below.
 
