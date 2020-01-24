@@ -322,7 +322,7 @@ For example if the first selected piece is dropped at king column, the second se
 The reason for this is that the musketeer pieces at king and rook columns will enter the playing area at the same time when making a **castle** move - this is not allowed.
 
 ### 5. Gating and pinned piece
-It is illegal to move a pinned piece even if it gates a musketeer piece covering the king attacker. In the image below, the rook at square A1 pins the knight at B2, the knight could have played Nc3/H or Na3/H or Nd2/H, gating the hawk to B1 - covering the rook attacker, but those moves are illegal.
+It is illegal to move a pinned piece even if it gates a musketeer piece covering the king attacker. In the image below, the black rook at square A1 pins the white knight at B1, the knight could have played Nc3/H or Na3/H or Nd2/H, gating the hawk to B1 - covering the rook attacker, but those moves are illegal.
 
 ##### White to move, black rook pins the white knight
 
