@@ -161,14 +161,14 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 * Move description
   * It can move like a knight as in chess but at the sides only.
   * It can move like a king as in chess.
-  * It can jump to a distance of 2 squares horizontally and vertically.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![cannon](https://i.imgur.com/M1v9LZj.png)
   
 #### 3. Unicorn
 * Move description
   * It can move like a knight as in chess.
-  * It can jump to a square adjacent to the knight destination square in the north, south, east and west directions.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a square adjacent to the knight destination square in the north, south, east and west directions.
 * Movement image
   * ![unicorn](https://i.imgur.com/axScV2u.png)
   
@@ -196,14 +196,14 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 #### 7. Elephant
 * Move description
   * It can move like a king as in chess.
-  * It can jump to a distance of 2 squares, horizontally, vertically and diagonally.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 2 squares, horizontally, vertically and diagonally.
 * Movement image
   * ![elephant](https://i.imgur.com/j2wgFLe.png)
   
 #### 8. Hawk
 * Move description
-  * It can jump to a distance of 2 squares, horizontally, vertically and diagonally.
-  * It can jump to a distance of 3 squares, horizontally, vertically and diagonally.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 2 squares, horizontally, vertically and diagonally.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 3 squares, horizontally, vertically and diagonally.
 * Movement image
   * ![hawk](https://i.imgur.com/EWmlalw.png)
   
@@ -211,7 +211,7 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 * Move description
   * It can move like a bishop as in chess but is limited to a maximum of 3 squares.
   * It can move like a knight as in chess, but only at front and back.
-  * It can jump to a distance of 2 squares horizontally and vertically.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![fortress](https://i.imgur.com/Y0rnhk4.png)
 
@@ -219,7 +219,7 @@ See also the official site for musketeer chess at https://musketeerchess.net/sit
 * Move description
   * It can move like a bishop as in chess but is limited to a maximum of 2 squares.
   * It can move like a knight as in chess.
-  * It can jump to a distance of 2 squares horizontally and vertically.
+  * It can jump (capture opponent's piece or non-capture to an empty square) to a distance of 2 squares horizontally and vertically.
 * Movement image
   * ![spider](https://i.imgur.com/uCD8pOA.png)
   
