@@ -3,6 +3,7 @@ Game rules and performance test
 
 ## Table of contents
 * [A. Introduction](#a-introduction)
+  * [Game overview](#game-overview)
 * [B. Musketeer pieces](#b-musketeer-pieces)
 * [C. Piece selection](#c-piece-selection)
 * [D. Gating preparation](#d-gating-preparation)
@@ -51,7 +52,7 @@ The playing area is the same as in chess bounded by squares A1, H1, H8, A8. The 
 #### Game overview
 This game has 2 initial phases in order, before the game starts like chess.
 1. PS (piece selection), [described in section C](#c-piece-selection), players selects 2 musketeer piece types
-2. GP (gating preparation) [described in section D](#d-gating-preparation), dropping/placing of selected pieces into the designated drop areas, getting ready to gate/enter the selected pieces from drop areas into the playing area
+2. GP (gating preparation) [described in section D](#d-gating-preparation), dropping/placing of selected pieces into the [designated drop areas](#image-1-initial-board-layout), getting ready to gate/enter the selected pieces from drop areas into the playing area
 
 Then the game can continue as in chess but with gating moves. [See game example section.](#j-example-game)
 
