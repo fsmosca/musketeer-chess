@@ -331,7 +331,7 @@ It is illegal to move a pinned piece even if it gates a musketeer piece covering
 ### 6. The default musketeer piece type
 Piece selection has default values and these are **cannon** and **leopard**.
 
-During piece selection process, black has the option to choose the default musketeer piece types to be used in the game. For example white selected a spider, and if black does not like it, black should inform white that they will use the default musketeer piece types. The default cannon/leopard can be changed by the tournament director before the match or tournament starts.
+During piece selection process, black has the option to choose the default musketeer piece types to be used in the game. For example white selected a spider, and if black does not like it, black should inform white that they will use the default musketeer piece types. The default cannon/leopard can be changed by the tournament director before a game or a match or a tournament starts.
 
 ## H. Performance test or perft
 [Back to table of contents](#table-of-contents)
